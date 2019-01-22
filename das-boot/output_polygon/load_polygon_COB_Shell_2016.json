@@ -1,0 +1,146 @@
+{
+    "WorkProduct": {
+        "ResourceTypeID": "srn:type:work-product/Polygon:",
+        "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+        "Data": {
+            "GroupTypeProperties": {
+                "Components": []
+            },
+            "IndividualTypeProperties": {
+                "Name": "COB_Shell_2016",
+                "Description": "Polygon"
+            },
+            "ExtensionProperties": {}
+        },
+        "ComponentsAssociativeIDs": [
+            "wpc-1"
+        ]
+    },
+    "WorkProductComponents": [
+        {
+            "ResourceTypeID": "srn:type:work-product-component/Polygon:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "Files": [],
+                    "Artefacts": []
+                },
+                "IndividualTypeProperties": {
+                    "Name": "COB_Shell_2016",
+                    "Description": "Polygon"
+                },
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "wpc-1",
+            "FileAssociativeIDs": [
+                "f-1",
+                "f-2",
+                "f-3",
+                "f-4",
+                "f-5",
+                "f-6",
+                "f-7"
+            ]
+        }
+    ],
+    "Files": [
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-shp:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.shp",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.shp"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-1"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-cpg:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.cpg",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.cpg"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-2"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-dbf:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.dbf",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.dbf"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-3"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-prj:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.prj",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.prj"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-4"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-sbn:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.sbn",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.sbn"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-5"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-sbx:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.sbx",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.sbx"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-6"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/ESRI-shx:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.shx",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/COB_Shell_2016.shx"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-7"
+        }
+    ]
+}

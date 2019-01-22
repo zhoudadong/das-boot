@@ -1,0 +1,101 @@
+{
+    "WorkProduct": {
+        "ResourceTypeID": "srn:type:work-product/Polygon:",
+        "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+        "Data": {
+            "GroupTypeProperties": {
+                "Components": []
+            },
+            "IndividualTypeProperties": {
+                "Name": "3D_outlines",
+                "Description": "Polygon"
+            },
+            "ExtensionProperties": {}
+        },
+        "ComponentsAssociativeIDs": [
+            "wpc-1"
+        ]
+    },
+    "WorkProductComponents": [
+        {
+            "ResourceTypeID": "srn:type:work-product-component/Polygon:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "Files": [],
+                    "Artefacts": []
+                },
+                "IndividualTypeProperties": {
+                    "Name": "3D_outlines",
+                    "Description": "Polygon"
+                },
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "wpc-1",
+            "FileAssociativeIDs": [
+                "f-1",
+                "f-2",
+                "f-3",
+                "f-4"
+            ]
+        }
+    ],
+    "Files": [
+        {
+            "ResourceTypeID": "srn:type:file/nDI-ply:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-1"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/nDI-slm:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.slm",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.slm"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-2"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/nDI-qcb:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.qcb",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.qcb"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-3"
+        },
+        {
+            "ResourceTypeID": "srn:type:file/nDI-qen:",
+            "ResourceSecurityClassification": "srn:reference-data/ResourceSecurityClassification:RESTRICTED:",
+            "Data": {
+                "GroupTypeProperties": {
+                    "FileSource": "",
+                    "OriginalFilePath": "/glb/am/sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.qen",
+                    "StagingFilePath": "s3://data-migration-test-data-upload/us.sepco/proj/brz_exp/campos/ndi/2018_campos_postsalt_study_hou/polygons/3D_outlines.ply.qen"
+                },
+                "IndividualTypeProperties": {},
+                "ExtensionProperties": {}
+            },
+            "AssociativeID": "f-4"
+        }
+    ]
+}
